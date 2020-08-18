@@ -22,7 +22,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
         send_string_with_delay(sentences[i], delay);
         return false;
       case KRZ2: ;
-        send_string(SS_LCMD(" ") "terminal\n");
+        send_string(SS_LCMD(" ") "iTerm 2\n");
         return false;
     }
   }
